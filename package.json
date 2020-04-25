@@ -1,0 +1,16 @@
+{
+  "name": "webassembly-exercise",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Vítor Mariano <vmatheus.mariano@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "em++ -O3 -s WASM=1",
+    "start": "yarn parcel --hmr-port 1231 src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.8.3"
+  }
+}
